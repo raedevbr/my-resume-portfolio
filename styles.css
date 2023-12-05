@@ -1,0 +1,123 @@
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #003366;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.tabs {
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.home {
+    padding-left: 2%;
+}
+
+.tab {
+    padding-right: 2%;
+    display: inline-block;
+}
+
+.tab > a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.tab > a:focus {
+    color: blue;
+}
+
+.btn {
+    flex: 1;
+    text-align: right;
+}
+
+.btn-download-pdf {
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 50px;
+    background-color: #66CC99;
+    color: #000000;
+    font-weight: bold;
+}
+
+.btn-invisible {
+    visibility: hidden;
+}
+
+main {
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.profile-image {
+border-radius: 50%;
+border: 2px solid black;
+margin-right: 20px;
+float: left;
+}
+
+h1 {
+    font-family: 'Fira Code', monospace;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: 'Fira Code', monospace;
+    font-weight: 600;
+}
+
+h3 {
+    font-family: 'Fira Code', monospace;
+    font-weight: 500;
+}
+
+p, li, .tab, button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: -1.5rem;
+}
+
+footer > p {
+    text-align: center;
+}
+
+@media (width <= 680px) {
+
+    .presentation {
+        text-align: center;
+    }
+
+    .profile-image {
+        float: none;
+    }
+    
+    .tabs {
+        text-align: center;
+        display: block;
+    }
+
+    .btn {
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .btn-download-pdf {
+        padding: 5px 5px;
+        margin-top: 10px;
+    }
+
+    main {
+        padding-top: 80px;
+    }
+}
