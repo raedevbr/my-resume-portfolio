@@ -29,7 +29,11 @@ header {
 }
 
 .tab > a:focus {
-    color: blue;
+    color: #66CCCC;
+}
+
+.tab > .active {
+    color: #66CC99;
 }
 
 .btn {
@@ -44,6 +48,12 @@ header {
     background-color: #66CC99;
     color: #000000;
     font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.01s ease-in-out;
+}
+
+.btn-download-pdf:active {
+    transform: scale(0.85);
 }
 
 .btn-invisible {
