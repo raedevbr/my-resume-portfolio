@@ -13,17 +13,23 @@
 
     <header>
         <nav class="tabs">
-            <div class="tab home"><a href="../index.html">Home</a></div>
-            <div class="tab"><a href="./hobbies.html">My Hobbies</a></div>
-            <div class="tab"><a href="./portfolio.html">My Portfolio</a></div>
-            <div class="tab active"><a href="./contact.html" class="active">Contact Me</a></div>
+            <div class="tab home"><a href="../index_en.html">Home</a></div>
+            <div class="tab"><a href="./hobbies_en.html">My Hobbies</a></div>
+            <div class="tab"><a href="./portfolio_en.html">My Portfolio</a></div>
+            <div class="tab"><a href="./contact_en.html" class="active">Contact Me</a></div>
+            <div class="tab">
+                <select id="language-selector" data-tab="contact">
+                    <option value="en">English</option>
+                    <option value="pt">Português</option>
+                </select>
+            </div>
             <div class="tab btn btn-invisible"><button class="btn-download-pdf">Download as PDF</button></div>
         </nav>
     </header>
     
     <main>
 
-        <h3>My Contact Details</h3>
+        <h2>Contact Me</h2>
         <ul>
             <li><a href="https://t.me/raedevbr" target="_blank">Telegram</a></li>
             <li><a href="mailto:raedevbr@proton.me" target="_blank">Email</a></li>
@@ -31,9 +37,14 @@
             <li><a href="https://github.com/raedevbr" target="_blank">Github</a></li>
         </ul>
     
-    <p>I'm located in <a href="https://maps.app.goo.gl/wYC2VzuQDEQCQ7fn7" target="_blank">Guarulhos-SP</a></p>
+    <p>I'm located in <a href="https://maps.app.goo.gl/wYC2VzuQDEQCQ7fn7" target="_blank">Guarulhos-SP, Brazil</a></p>
 
     </main>
 
+    <footer>
+        <p><small>© Raul Araujo. All rights reserved.</small></p>
+    </footer>
+
+    <script src="../language-selector.js" charset="UTF-8"></script>
 </body>
 </html>

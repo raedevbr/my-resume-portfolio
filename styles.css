@@ -36,6 +36,13 @@ header {
     color: #66CC99;
 }
 
+#language-select {
+    border: 0;
+    border-radius: 5px;
+    padding: 2px;
+    cursor: pointer;
+}
+
 .btn {
     flex: 1;
     text-align: right;
