@@ -1,2 +1,2 @@
 # Access the following link:
-[Raul Araujo's Resume](https://raedevbr.github.io/my-resume-portfolio/)
+[Raul Araujo's Resume](https://raedevbr.github.io/my-resume-portfolio/index_en.html)
