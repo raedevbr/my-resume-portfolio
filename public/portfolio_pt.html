@@ -8,6 +8,46 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@500;600;700&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../styles.css">
+    <style>
+
+        main {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .container {
+            display: flex;
+            height: 100%;
+            flex-direction: column;
+            align-items: start;
+            text-align: start;
+        }
+
+        .web-projects {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+        }
+
+        .web-project {
+            height: 200px;
+            border: 5px solid #66CC99;
+            border-radius: 5px;
+            display: inline-block;
+            width: 400px;
+        }
+
+        .android-projects {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+        }
+
+        .android-project {
+            display: inline-block;
+            width: 400px;
+        }
+    </style>
 </head>
 <body>
 
@@ -28,7 +68,40 @@
     </header>
 
     <main>
-        <h2>Meu Portfólio</h2>
+
+        <div class="container">
+
+            <h2>Projetos Web</h2>
+            <div class="web-projects">
+
+                <div>
+                    <img src="../assets/images/preview-qr-code-generator.png" class="web-project" />
+                    <p><a href="https://github.com/raedevbr/qr-code-generator" target="_blank">QR Code Generator</a></p>
+                </div>
+
+                <div>
+                    <img src="../assets/images/preview-drum-kit.png" class="web-project"/>
+                    <p><a href="https://github.com/raedevbr/drum-kit" target="_blank">Drum Kit</a></p>
+                </div>
+
+                <div>
+                    <img src="../assets/images/preview-simon-game.png" class="web-project" />
+                    <p><a href="https://github.com/raedevbr/simon-game" target="_blank">Simon Game</a></p>
+                </div>
+
+            </div>
+
+            <h2>Projetos Android</h2>
+            <div class="android-projects">
+                <div>
+                    <img src="../assets/images/printtodoapp.png" class="android-project"/>
+                    <p><a href="https://github.com/raedevbr/todoapp" target="_blank">Todo App</a></p>
+                </div>
+
+            </div>
+
+        </div>
+
     </main>
 
     <footer>
