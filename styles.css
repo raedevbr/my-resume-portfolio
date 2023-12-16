@@ -23,16 +23,16 @@ header {
     display: inline-block;
 }
 
-.tab > a {
+.tab>a {
     color: #fff;
     text-decoration: none;
 }
 
-.tab > a:focus {
+.tab>a:focus {
     color: #66CCCC;
 }
 
-.tab > .active {
+.tab>.active {
     color: #66CC99;
 }
 
@@ -74,10 +74,10 @@ main {
 }
 
 .profile-image {
-border-radius: 50%;
-border: 2px solid black;
-margin-right: 20px;
-float: left;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-right: 20px;
+    float: left;
 }
 
 h1 {
@@ -95,21 +95,19 @@ h3 {
     font-weight: 500;
 }
 
-p, li, .tab, button {
+p,
+li,
+.tab,
+button {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
 
-ul {
-    list-style-type: none;
-    margin-left: -1.5rem;
-}
-
-footer > p {
+footer>p {
     text-align: center;
 }
 
-@media (width <= 680px) {
+@media (width <=680px) {
 
     .presentation {
         text-align: center;
@@ -118,7 +116,7 @@ footer > p {
     .profile-image {
         float: none;
     }
-    
+
     .tabs {
         text-align: center;
         display: block;
