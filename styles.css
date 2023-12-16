@@ -78,6 +78,8 @@ main {
     border: 2px solid black;
     margin-right: 20px;
     float: left;
+    width: 150px;
+    height: 150px;
 }
 
 h1 {
